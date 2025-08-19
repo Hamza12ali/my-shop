@@ -1,0 +1,53 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs
+*.log
+*.out
+*.err
+
+# Env files (keep your secrets safe!)
+.env
+.env.*  
+!.env.example   # (you can keep a template for others)
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build output - Backend
+backend/dist/
+backend/build/
+
+# Build output - Next.js frontend
+frontend/.next/
+frontend/out/
+
+# Coverage / testing
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.next/cache/
+frontend/node_modules/.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+*.pid
+*.seed
+*.tgz
+
+# Optional lock files (if you don't want to commit)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
